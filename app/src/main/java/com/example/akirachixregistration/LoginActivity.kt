@@ -1,5 +1,6 @@
 package com.example.akirachixregistration
 
+import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import android.telecom.Call
@@ -14,6 +15,7 @@ import com.example.akirachixregistration.models.loginResponse
 import javax.security.auth.callback.Callback
 
 class LoginActivity : AppCompatActivity() {
+//    lateinit var binding:ActivityLoginBinding
     lateinit var etemail:TextView
     lateinit var etpassword:TextView
     lateinit var btnlogin:Button
@@ -60,3 +62,5 @@ class LoginActivity : AppCompatActivity() {
         })
     }
 }
+
+

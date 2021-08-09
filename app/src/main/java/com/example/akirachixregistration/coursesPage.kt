@@ -9,11 +9,7 @@ class coursesPage :AppCompatActivity(){
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        var rvCourse = findViewById<RecyclerView>(R.id.rvcourse)
-        var courseList = listOf(
-            var courses (
 
-                )
 
 
 
